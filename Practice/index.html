@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gantabya - Travel Agency Nepal</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body { font-family: Arial, sans-serif; background: white; color: rgb(0, 0, 0); text-align: center; }
+        header { background: green; color: white; padding: 10px; }
+        nav ul { list-style-type: none; padding: 0; }
+        nav ul li { display: inline; margin: 0 15px; }
+        nav ul li a { color: white; text-decoration: none; }
+        section { padding: 20px; }
+        img { width: 20
+            %; max-width: 600px; margin: 10px 0; }
+        form input, form select, form button { display: block; margin: 10px auto; padding: 10px; }
+        footer { background: rgb(134, 117, 117); color: white; padding: 10px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="static/images/nepal2.jpg" height="20px"width='25px'alt="Mount Everest">
+
+        <h1>Gantabya holidays
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#booking">Booking</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Welcome to Nepal</h2>
+        <p>Discover the beauty of the Himalayas, rich culture, and adventure tourism.</p>
+        <input type="text" placeholder="Search..." value="www.gantabya.com">
+    </section>
+    
+    <section id="about">
+        <h2 style="">About Us</h2>
+        <p>Gantabya is a trusted travel agency offering the best travel experiences across Nepal.</p>
+        <p>Nepal, known as the Land of the Himalayas, is home to Mount Everest, rich cultural heritage, and stunning landscapes. From trekking in the Annapurna region to exploring ancient temples in Kathmandu, Nepal offers a unique and unforgettable experience for travelers.</p>
+    </section>
+    
+    <section id="booking">
+        <h2>Book Your Trip</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="destination">Destination:</label>
+            <select id="destination" name="destination">
+                <option value="ghandruk">Ghandruk – Pokhara – Phoon Hill</option>
+                <option value="mustang">Mustang-Muktinath</option>
+            </select>
+            
+            <label for="date">Travel Date:</label>
+            <input type="date" id="date" name="date" required>
+            
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+    
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <img src="static/gantabya resort.jpg" alt="Mount Everest">
+        <img src="static/images/nepal2.jpg" alt="Pokhara Lake">
+        <img src="static/" alt="Lumbini Temple">
+    </section>
+    
+    <section id="packages">
+        <h2>Our Packages</h2>
+        <h3>Ghandruk – Pokhara – Phoon Hill (4 Nights 5 Days)</h3>
+        <p>Price: Nrs 13,000 per person (7+ person)</p>
+        <p>Transportation: 4WD private jeep</p>
+        <p>Accommodation: Standard Hotel</p>
+        <p>Includes meals, accommodation, and transportation.</p>
+        
+        <h3>Mustang-Muktinath (4 Nights 5 Days)</h3>
+        <p>Price: Nrs 15,500 per person</p>
+        <p>Transportation: 4WD Scorpio Jeep</p>
+        <p>Accommodation: Standard Hotel</p>
+        <p>Includes meals, accommodation, and sightseeing.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@gantabya.com</p>
+        <p>Phone: 9841627415</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Gantabya Travel Agency. Website made by Sarthak Thapa.</p>
+    </footer>
+</body>
+</html>
